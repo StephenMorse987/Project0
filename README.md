@@ -21,7 +21,7 @@ Removes .classes and .jars
 Compiles the source code
 
 `./gradle package`
-Packages the compiled source into executables (must `./gradle build` first)
+Packages the compiled source into executables (*must `./gradle build` first*)
 
 `./gradle run`
-Runs compiled code (must `./gradle build` first)
+Runs compiled code (*must `./gradle build` first*)
