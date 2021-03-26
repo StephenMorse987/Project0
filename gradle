@@ -11,7 +11,7 @@ function package_project {
 	jar -cfe target/App.jar App target/classes/*.class
 }
 function run_project {
-	java -cp target/classes/ App
+	java -cp target/classes App
 }
 
 case $1 in
