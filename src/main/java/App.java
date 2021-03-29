@@ -8,7 +8,6 @@ import java.io.IOException;
  * @author Stephen Morse
  */
 public class App {
-    private static String filename = "IngredientList.csv";
     public static void main(String[] args) {
         Properties properties = new Properties();
         try {

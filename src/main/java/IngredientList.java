@@ -27,7 +27,7 @@ public class IngredientList {
         while (fileReader.hasNextLine()) {
             ingredientList.add(new Ingredient(fileReader.nextLine()));
         }
-
+        
         //The file has been read; Close the scanner
         fileReader.close();
     }
